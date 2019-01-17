@@ -40,4 +40,5 @@ nav:
     - caffe安装:
         - 1. 待补充: notdone.md
     - 服务器申请经费流程:
-        - 1. dsdas: flow_server.md
+        - 1. 材料准备: flow_server_a.md
+        - 2. 审批流程: flow_server_b.md
