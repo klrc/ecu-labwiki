@@ -1,0 +1,43 @@
+site_name: Ecust Labwiki
+
+theme:
+    name: material
+    palette:
+        primary: 'Grey'
+        accent: 'Pink'
+extra:
+    search:
+        language: 'jp'
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: false
+  - toc:
+      permalink: true
+  - footnotes
+  - meta
+  - def_list
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_png
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist
+  - pymdownx.tilde
+  
+nav:
+    - 介绍: index.md
+    - caffe安装:
+        - 1. 待补充: notdone.md
+    - 服务器申请经费流程:
+        - 1. dsdas: flow_server.md
